@@ -1,0 +1,98 @@
+@font-face {
+font-family: "Capsuula";
+src: url("../fonts/Capsuula.ttf");
+}
+
+@font-face {
+  font-family: "big_noodle_titling";
+  src: url("../fonts/big_noodle_titling.ttf");
+}
+
+@font-face {
+  font-family: "Wild Ones Personal Use";
+  src: url("../fonts/Wild Ones Personal Use.ttf");
+}
+
+@font-face {
+  font-family: "GeosansLight";
+  src: url("../fonts/GeosansLight");
+}
+
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url("../fonts/Quicksand-Light.otf");
+}
+
+
+.bg-light {
+    background-color: white !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+  color: black;
+  font-family: "GeosansLight", sans-serif;
+  font-size: 1.1rem;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+}
+
+.jumbotron{
+  background-image: url("../img/henrik-donnestad-469635-unsplash.jpg");
+  background-image: 100%;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 1000px;
+  min-height: 500px;
+}
+
+.card {
+  display: inline-block;
+  padding: 25px;
+  margin: 25px;
+  min-width: 200px;
+}
+
+.display-4{
+  font-size: 75px;
+  font: serif;
+  font-weight: bold;
+  color: black;
+}
+
+.lead{
+  color: black;
+  font-size: 25px;
+}
+
+.container {
+  padding: 75px;
+  border:20px #6B8E23 solid;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #10242F;
+    border-color: #10242F;
+  }
+
+.customnav {
+  margin-left: auto;
+  margin-right: 25px;
+  background-color: white;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: white;
+}
